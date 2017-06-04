@@ -104,3 +104,21 @@ a[href$=".docx"]{
 .img-container:hover .img-background{
     transform: scale(1.5);
 }
+
+
+/*Efekt bijącego serca w napisie*/
+
+.pulse {
+    color: red;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%, 100% {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.5);
+    }
+}
