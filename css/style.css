@@ -48,3 +48,20 @@ circle-button:hover{
 
 
 
+/*Zmiana koloru czcionki placeholdera w formularzu*/
+
+input[type="text"]::-webkit-input-placeholder{
+    color: green;
+}
+
+input[type="text"]:-moz-placeholder{
+    color: green;
+}
+
+input[type="text"]::-moze-placeholder{
+    color: green;
+}
+
+input[type="text"]:-ms-input-placeholder{
+    color: green;
+}
