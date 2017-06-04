@@ -1,0 +1,22 @@
+/*Zadanie 1 Snippeet1*/
+
+  #outer_square {
+  position:relative;
+  width: 400px;
+  height:400px;
+  background-color: red;
+}
+
+.kwadrat {
+  
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:25%;
+  left:25%;
+  background-color: orange;
+}
+
+
+/*Zadanie 2 Okrągły przycisk z infografiką (Font Awesome)*/
+
