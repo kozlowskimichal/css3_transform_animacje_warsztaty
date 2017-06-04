@@ -65,3 +65,16 @@ input[type="text"]::-moze-placeholder{
 input[type="text"]:-ms-input-placeholder{
     color: green;
 }
+
+
+/*Nadanie innego koloru dla linku, który służy do pobierania plików z rozszerzeniem .doc i .docx*/
+
+a[href$=".doc"]{
+    color: red;
+}
+
+/*jest kropka przed doc i docx bo to jest rozszerzenie*/
+
+a[href$=".docx"]{
+    color: green;
+}
